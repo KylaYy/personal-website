@@ -25,6 +25,14 @@ body {
   --color-primary: oklch(20.5% 0 0);
   --color-accent: oklch(42.4% 0.199 265.638);
   --color-active: oklch(55.2% 0.016 285.938);
+
+  --color-hlink: oklch(62.3% 0.214 259.815);
+}
+
+@layer base {
+  a {
+    color: var(--color-hlink)
+  }
 }
 
 /* at rule before is used to detect whether the user is in dark or light mode */

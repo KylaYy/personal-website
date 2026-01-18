@@ -13,7 +13,7 @@ const NavBar = () => {
     ]
 
     return (
-        <div className="flex flex-row justify-between py-10 text-xl text-accent">
+        <div className="flex flex-row justify-between py-10 text-xl text-hlink">
             <div className="flex flex-row">
                 <Link href="/home" className="text-2xl">Kyla Yu</Link>
             </div>
@@ -21,7 +21,7 @@ const NavBar = () => {
                 {links.map((link) => {
                     const shouldActivate = link.href === pathname; 
                     return (
-                    <Link key={link.name} href={link.href} className={shouldActivate ? "text-active" : "text-accent"}>{link.name}</Link>
+                    <Link key={link.name} href={link.href} className={shouldActivate ? "text-active" : "text-hlink"}>{link.name}</Link>
                     );
                 })}
                 <Link href="" rel="noopener noreferrer">Resume</Link>
