@@ -1,3 +1,4 @@
+import MaxWidthWrapper from "../components/max-width-wrapper";
 import NavBar from "../components/navbar";
 
 export default function HomeLayout({
@@ -6,9 +7,9 @@ export default function HomeLayout({
   children: React.ReactNode;
 }>) {
     return (
-        <div>
+        <MaxWidthWrapper>
             <NavBar />
             {children}
-        </div>
+        </MaxWidthWrapper>
     ); 
 }

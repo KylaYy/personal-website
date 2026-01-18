@@ -13,7 +13,7 @@ const NavBar = () => {
     ]
 
     return (
-        <div className="flex flex-row justify-between p-10 text-accent">
+        <div className="flex flex-row justify-between py-10 text-accent">
             <div className="flex flex-row">
                 <Link href="/home" className="text-xl">Kyla Yu</Link>
             </div>
