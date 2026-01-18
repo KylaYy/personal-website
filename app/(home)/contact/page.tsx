@@ -3,8 +3,8 @@ import Header from "@/app/components/text/h1";
 
 export default function Contact() {
   return (
-    <MaxWidthWrapper>
+    <div>
       <Header>Contact</Header>
-    </MaxWidthWrapper>
+    </div>
   );
 }

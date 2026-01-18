@@ -13,9 +13,9 @@ const NavBar = () => {
     ]
 
     return (
-        <div className="flex flex-row justify-between py-10 text-accent">
+        <div className="flex flex-row justify-between py-10 text-xl text-accent">
             <div className="flex flex-row">
-                <Link href="/home" className="text-xl">Kyla Yu</Link>
+                <Link href="/home" className="text-2xl">Kyla Yu</Link>
             </div>
             <div className="flex flex-row space-x-5">
                 {links.map((link) => {

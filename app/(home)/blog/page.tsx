@@ -3,8 +3,8 @@ import Header from "@/app/components/text/h1";
 
 export default function Blog() {
     return (
-        <MaxWidthWrapper>
+        <div>
             <Header>Blog</Header>
-        </MaxWidthWrapper>
+        </div>
     );
 }

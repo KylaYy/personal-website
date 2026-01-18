@@ -4,12 +4,12 @@ import Header from "../../components/text/h1";
 
 export default function Home() {
   return (
-    <MaxWidthWrapper>
+    <div>
       <Header>Home</Header>
       <SubHeader>Subheader</SubHeader>
       <div className="">
         Test div
       </div>
-    </MaxWidthWrapper>
+    </div>
   );
 }
