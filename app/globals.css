@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: oklch(98.7% 0.026 102.212);
   --foreground: #000000;
 }
 
@@ -23,8 +23,8 @@ body {
 @theme {
   /* Colours */
   --color-primary: oklch(20.5% 0 0);
-  --color-accent: oklch(37.9% 0.146 265.522);
-  --color-active: oklch(55.4% 0.046 257.417);
+  --color-accent: oklch(42.4% 0.199 265.638);
+  --color-active: oklch(55.2% 0.016 285.938);
 }
 
 /* at rule before is used to detect whether the user is in dark or light mode */
