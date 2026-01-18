@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  /* font-family: 'Lucida Sans', 'Segoe UI', verdana, monospace, sans-serif, Arial, Helvetica; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* global colour themes */
+@theme {
+  /* Colours */
+  --color-primary: oklch(20.5% 0 0);
+  --color-accent: oklch(37.9% 0.146 265.522);
+  --color-active: oklch(55.4% 0.046 257.417);
+}
+
+/* at rule before is used to detect whether the user is in dark or light mode */
+/* @media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #000000;
+  }
+} */
