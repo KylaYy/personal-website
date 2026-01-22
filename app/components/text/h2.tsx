@@ -4,7 +4,9 @@ interface SubHeaderProps{
 
 const SubHeader = ({children}: SubHeaderProps) => {
     return(
-        <h2 className="italic text-lg">{children}</h2>
+        <div className="py-1">
+            <h2 className="italic text-lg">{children}</h2>
+        </div>
     );
 };
 
