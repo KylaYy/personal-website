@@ -4,8 +4,8 @@ interface ParagraphProps{
 
 const Paragraph = ({children}: ParagraphProps) => {
     return(
-        <div className="py-2">
-            <p className="text-foreground text-lg">{children}</p>
+        <div className="py-3">
+            <p className="text-foreground">{children}</p>
         </div>
     );
 };
