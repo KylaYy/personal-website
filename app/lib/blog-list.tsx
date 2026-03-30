@@ -1,4 +1,4 @@
-import Blog from "../(home)/blog/page";
+import Blog from "../(home)/posts/page";
 import BlogThumbnail from "../components/blog-thumbnail";
 
 interface Post {
