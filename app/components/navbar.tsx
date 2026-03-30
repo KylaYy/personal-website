@@ -7,7 +7,7 @@ const NavBar = () => {
     const pathname = usePathname();
 
     const links = [
-        {href: "/blog", name: "Blog"}, 
+        {href: "/posts", name: "Posts"}, 
         {href: "/projects", name: "Projects"}, 
         {href: "/contact", name:"Contact"}
     ]
