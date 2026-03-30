@@ -9,14 +9,14 @@ import TextWrapper from "../components/text-wrapper";
 export default function Home() {
   return (
     <TextWrapper>
-            <Header>Home</Header>
+            {/* <Header>Home</Header> */}
             <Paragraph>
-              Hello!
+              <b>Hello!</b>
             </Paragraph>
             <Paragraph>
               I’m Kyla, a third year Systems Design Engineering student at the University of 
               Waterloo. I’m currently doing pavement asset management at York Region, and I’ve
-               done previous transportation research co-ops at Waterloo’s <a href='https://uwaterloo.ca/planning/'>School of Planning</a> and the <a href='https://reactlab.civil.ubc.ca/'>UBC REACT Lab</a>. 
+               done previous transportation research co-ops at UWaterloo’s <a href='https://uwaterloo.ca/planning/'>School of Planning</a> and the <a href='https://reactlab.civil.ubc.ca/'>UBC REACT Lab</a>. 
             </Paragraph>
             <Paragraph>
               As someone who regularly needs to move from one point in space to another, I’m deeply curious about the way 

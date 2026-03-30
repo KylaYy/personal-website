@@ -1,10 +1,10 @@
-import MaxWidthWrapper from "@/app/components/max-width-wrapper";
+import TextWrapper from "@/app/components/text-wrapper";
 import Header from "@/app/components/text/h1";
 
 export default function Contact() {
   return (
-    <div>
+    <TextWrapper>
       <Header>Contact</Header>
-    </div>
+    </TextWrapper>
   );
 }
