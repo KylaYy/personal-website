@@ -13,13 +13,13 @@ interface BlogThumbnailProps {
 
 const BlogThumbnail = (Blog : BlogThumbnailProps) => {
     return (
-        <a href={`blog${Blog.slug}`}>
-            <div className="w-full outline">
-            <PostTitle>{Blog.headerTitle}</PostTitle>
-            <PostDate>{Blog.date}</PostDate>
-            <Paragraph>{Blog.description}</Paragraph>
-            </div>
+        <div className="w-full rounded-lg fill-red-500 py-2 opacity-100">
+        <a href={`posts${Blog.slug}`}>
+             <PostTitle>{Blog.headerTitle}</PostTitle>
         </a>
+        <PostDate>{Blog.date}</PostDate>
+        <Paragraph>{Blog.description}</Paragraph>
+        </div>
     );
 }; 
 

@@ -4,7 +4,7 @@ interface PostTitleProps{
 
 const PostTitle = ({ children }: PostTitleProps) => {
     return (
-    <p className='text-lg'>{children}</p>
+    <p className='text-xl font-bold'>{children}</p>
     )
 }
 
