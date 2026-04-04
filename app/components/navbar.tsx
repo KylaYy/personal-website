@@ -13,7 +13,7 @@ const NavBar = () => {
     ]
 
     return (
-        <div className="flex flex-row justify-between py-10 text-xl text-hlink">
+        <div className="flex flex-row justify-between py-10 pb-15 text-xl text-hlink">
             <div className="flex flex-row">
                 <Link href="/" className="text-xl">Kyla Yu</Link>
             </div>
