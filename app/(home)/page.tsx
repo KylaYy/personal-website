@@ -33,7 +33,7 @@ export default function Home() {
               </li>
               <li>
                 <b>Transportation systems are fundamentally dynamic.</b> Transportation needs change constantly, from day to day, 
-                week to week, year to year and systems need to change to accommodate - there will never be a perfect 
+                week to week, and year to year, and systems need to change to accommodate - there will never be a perfect 
                 transportation system because people and their mode choices will inevitably shift over time.
               </li>
               <li>
@@ -44,7 +44,7 @@ export default function Home() {
             <Paragraph>
               These days, I find myself thinking more and more about the control municipal governments have 
               over transportation systems. My latest interest revolves around community engagement in 
-              government projects. It’s a contentious topic amongst planners, and I want to know what is 
+              government projects. It’s a contentious topic amongst planners, and I want to know what's 
               working, what isn’t, and how government approval processes should change to best serve the 
               people they’re supposed to serve.
             </Paragraph>
