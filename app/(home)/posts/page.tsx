@@ -6,7 +6,7 @@ export default function Blog() {
     return (
         <TextWrapper>
             <Header>Posts</Header>
-            <BlogList></BlogList>
+            <BlogList/>
         </TextWrapper>
     );
 }
