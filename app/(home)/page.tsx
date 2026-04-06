@@ -15,15 +15,16 @@ export default function Home() {
             </Paragraph>
             <Paragraph>
               I’m Kyla, a third year Systems Design Engineering student at the University of 
-              Waterloo. I’m currently doing pavement asset management at York Region, and I’ve
-               done previous transportation research co-ops at UWaterloo’s <a href='https://uwaterloo.ca/planning/'>School of Planning</a> and the <a href='https://reactlab.civil.ubc.ca/'>UBC REACT Lab</a>. 
+              Waterloo. I’m currently doing pavement asset management at <a href='https://www.york.ca/'>York Region</a>, and I’ve
+               done previous transportation research co-ops at the <a href='https://uwaterloo.ca/planning/'>UWaterloo School of Planning</a> and 
+               the <a href='https://reactlab.civil.ubc.ca/'>UBC REACT Lab</a>. 
             </Paragraph>
             <Paragraph>
-              As someone who regularly needs to move from one point in space to another and has felt the 
-              limitations of poor transportation firsthand, I’m deeply curious about the way 
-              urban transportation systems develop. In particular, I want to know how policy, data, and technology shape 
-              the way people move within their cities. Over the past few years I’ve spent exploring these topics, I’ve been 
-              driven by a few core tenets:
+              As someone who has relied on public transit for the majority of my life, I’ve felt firsthand the limitations 
+              of poor transportation systems, and the freedom granted by good ones. As a result, I’m deeply 
+              curious about the way urban transportation systems develop. In particular, I want to know how policy, data, 
+              and technology shape the way people move within their cities. Over the past few years I’ve spent exploring these 
+              topics, I’ve been driven by a few core tenets:
             </Paragraph>
             <ol className='list-decimal'>
               <li>
@@ -41,15 +42,16 @@ export default function Home() {
               </li>
             </ol>
             <Paragraph>
-              As a result, I find myself thinking more and more about the control municipal governments have 
+              These days, I find myself thinking more and more about the control municipal governments have 
               over transportation systems. My latest interest revolves around community engagement in 
               government projects. It’s a contentious topic amongst planners, and I want to know what is 
               working, what isn’t, and how government approval processes should change to best serve the 
               people they’re supposed to serve.
             </Paragraph>
             <Paragraph>
-              If this sounds like something you’re interested in, feel free to reach out - you can find me 
-              on Linkedin or send me an email!
+              If this sounds like something you’re interested in, feel free to reach out - I'd love to chat about these topics!
+              You can find me on <a href='https://www.linkedin.com/in/k--ylayu27/' target='_blank'>Linkedin</a> or send me an  
+              <a href='mailto:kjyu@uwaterloo.ca'> email</a>!
           </Paragraph>
     </TextWrapper>
   );
