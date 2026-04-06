@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: oklch(98.7% 0.026 102.212);
+  /* --background: oklch(98.7% 0.026 102.212); */
+  --background: #FFF2DF;
   --foreground: #000000;
 }
 
@@ -11,7 +12,7 @@ body {
   /* font-family: 'Lucida Sans', 'Segoe UI', verdana, monospace, sans-serif, Arial, Helvetica; */
   font-family: 'Inconsolata', monospace;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 2.0;
 }
 
 
@@ -29,7 +30,8 @@ body {
   --color-accent: oklch(42.4% 0.199 265.638);
   --color-active: oklch(55.2% 0.016 285.938);
 
-  --color-hlink: oklch(62.3% 0.214 259.815);
+  /* --color-hlink: oklch(0.383 0.1449 259.815); */
+  --color-hlink: oklch(0.496 0.1754 259.815)
 }
 
 @layer base {
@@ -38,7 +40,8 @@ body {
   }
 
   ol {
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom:15px;
     padding-left: 20px;
   }
 
