@@ -19,7 +19,8 @@ export default function Home() {
                done previous transportation research co-ops at UWaterloo’s <a href='https://uwaterloo.ca/planning/'>School of Planning</a> and the <a href='https://reactlab.civil.ubc.ca/'>UBC REACT Lab</a>. 
             </Paragraph>
             <Paragraph>
-              As someone who regularly needs to move from one point in space to another, I’m deeply curious about the way 
+              As someone who regularly needs to move from one point in space to another and has felt the 
+              limitations of poor transportation firsthand, I’m deeply curious about the way 
               urban transportation systems develop. In particular, I want to know how policy, data, and technology shape 
               the way people move within their cities. Over the past few years I’ve spent exploring these topics, I’ve been 
               driven by a few core tenets:
@@ -39,6 +40,17 @@ export default function Home() {
                 education, groceries, healthcare, and more, while a bad one can limit access to everything.
               </li>
             </ol>
+            <Paragraph>
+              As a result, I find myself thinking more and more about the control municipal governments have 
+              over transportation systems. My latest interest revolves around community engagement in 
+              government projects. It’s a contentious topic amongst planners, and I want to know what is 
+              working, what isn’t, and how government approval processes should change to best serve the 
+              people they’re supposed to serve.
+            </Paragraph>
+            <Paragraph>
+              If this sounds like something you’re interested in, feel free to reach out - you can find me 
+              on Linkedin or send me an email!
+          </Paragraph>
     </TextWrapper>
   );
 }
