@@ -24,7 +24,7 @@ const NavBar = () => {
                     <Link key={link.name} href={link.href} className={shouldActivate ? "text-active" : "text-hlink"}>{link.name}</Link>
                     );
                 })}
-                <Link href="" rel="noopener noreferrer">Resume</Link>
+                <Link href="https://drive.google.com/file/d/18hS4o9b-R6v_5Ai8Zt3yG5q-JF-kHY-z/view?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</Link>
             </div>
         </div>
     );
